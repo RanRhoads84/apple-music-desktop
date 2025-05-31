@@ -42,6 +42,7 @@ esac
 # Install prerequisites
 installDeps () {
 	sudo apt-get install build-essential git node-gyp nodejs npm
+	npm install --save-dev electron-builder
 }
 case $1 in
 	--deps) installDeps; exit 0;;
@@ -50,7 +51,7 @@ esac
 cleanApp () {
 printf "\n" &&
 printf "${bold}${YEL} Cleaning artifacts and node_modules...${c0}\n" &&
-	
+
 npm run clean
 }
 case $1 in

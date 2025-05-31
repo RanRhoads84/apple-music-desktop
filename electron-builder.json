@@ -10,11 +10,13 @@
   "copyright": "Copyright © 2025 Alex313031",
   "generateUpdatesFilesForAllChannels": false,
   "directories": {
-      "app": "src",
-      "buildResources": "build",
-      "output": "dist"
+    "app": "src",
+    "buildResources": "build",
+    "output": "dist"
   },
-  "files": [ "**/*" ],
+  "files": [
+    "**/*"
+  ],
   "extraFiles": [
     {
       "from": "assets/icon.png"
@@ -27,21 +29,23 @@
     "target": [
       "zip",
       "deb",
-      "rpm",
-      "appimage"
+      "appimage",
+      "snap"
     ],
     "icon": "build/icons",
     "maintainer": "Alex313031",
     "vendor": "Alex313031",
     "synopsis": "An Electron app that provides a native Apple Music experience for Linux & Windows.",
-    "category": "AudioVideo;",
+    "category": "AudioVideo",
     "executableName": "apple-music",
     "artifactName": "apple-music_${version}_${arch}.${ext}",
     "desktop": {
-      "Name": "Apple Music",
-      "StartupWMClass": "apple-music",
-      "Keywords": "apple;music;",
-      "Icon": "apple-music"
+      "entry": {
+        "Name": "Apple Music",
+        "StartupWMClass": "apple-music",
+        "Keywords": "apple;music;",
+        "Icon": "apple-music"
+      }
     }
   },
   "win": {
@@ -51,7 +55,6 @@
       "portable",
       "nsis"
     ],
-    "publisherName": "Alex313031",
     "executableName": "apple_music",
     "artifactName": "apple_music_${version}_${arch}.${ext}"
   },

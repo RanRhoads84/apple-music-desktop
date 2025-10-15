@@ -1,10 +1,10 @@
 # Apple Music Desktop &nbsp;<img src="Logo.png" width="48">
 
-An [Electron](https://www.electronjs.org/) app that provides a native Apple Music experience for Linux & Windows.
+An [Electron](https://www.electronjs.org/) app that provides a native Apple Music experience for Linux.
 
 ## Features
 
-- Native desktop experience for Apple Music on Linux and Windows
+- Native desktop experience for Apple Music on Linux
 - Tray icon with playback controls (Play/Pause, Next, Previous, Show/Minimize, Quit)
 - Customizable menu with settings for theme, start tab, and more
 - Mini Player mode
@@ -18,13 +18,7 @@ An [Electron](https://www.electronjs.org/) app that provides a native Apple Musi
 
 ## Installation
 
-See the [Releases](https://github.com/RanRhoads84/apple-music-desktop/releases/tag/Release) page for pre-built binaries.
-
-Direct links to the latest packaged builds found in this repo's `release/` folder:
-
-- Linux (AppImage, x86_64): [apple-music_2.2.0_x86_64.AppImage](release/apple-music_2.2.0_x86_64.AppImage)
-- Linux (Ubuntu 25.10, DEB amd64): [apple-music_2.2.0_Ubuntu-25.10_amd64.deb](release/apple-music_2.2.0_Ubuntu-25.10_amd64.deb)
-- Linux (Snap, amd64): [apple-music_2.2.0_amd64.snap](release/apple-music_2.2.0_amd64.snap)
+See the [Releases](https://github.com/RanRhoads84/apple-music-desktop/releases/tag/Release) page for pre-built Linux binaries.
 
 Notes:
 - AppImage: Make the file executable and run it. On most distros: `chmod +x apple-music_2.2.0_x86_64.AppImage` then `./apple-music_2.2.0_x86_64.AppImage`.

@@ -20,6 +20,19 @@ An [Electron](https://www.electronjs.org/) app that provides a native Apple Musi
 
 See the [Releases](https://github.com/Alex313031/apple-music-desktop/releases) page for pre-built binaries.
 
+## Downloads
+
+Direct links to the latest packaged builds found in this repo's `release/` folder:
+
+- Linux (AppImage, x86_64): [apple-music_2.2.0_x86_64.AppImage](release/apple-music_2.2.0_x86_64.AppImage)
+- Linux (Ubuntu 25.10, DEB amd64): [apple-music_2.2.0_Ubuntu-25.10_amd64.deb](release/apple-music_2.2.0_Ubuntu-25.10_amd64.deb)
+- Linux (Snap, amd64): [apple-music_2.2.0_amd64.snap](release/apple-music_2.2.0_amd64.snap)
+
+Notes:
+- AppImage: Make the file executable and run it. On most distros: `chmod +x apple-music_2.2.0_x86_64.AppImage` then `./apple-music_2.2.0_x86_64.AppImage`.
+- DEB: Install with your package manager on Ubuntu 25.10 or compatible derivatives.
+- Snap: Install via `snap install --dangerous apple-music_2.2.0_amd64.snap` or from the Snap Store if available.
+
 ## Building
 
 Requires Node.js 16 or 18. It is recommended to use [nvm](https://github.com/nvm-sh/nvm) for managing Node versions.

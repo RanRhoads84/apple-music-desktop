@@ -18,9 +18,7 @@ An [Electron](https://www.electronjs.org/) app that provides a native Apple Musi
 
 ## Installation
 
-See the [Releases](https://github.com/Alex313031/apple-music-desktop/releases) page for pre-built binaries.
-
-## Downloads
+See the [Releases](https://github.com/RanRhoads84/apple-music-desktop/releases/tag/Release) page for pre-built binaries.
 
 Direct links to the latest packaged builds found in this repo's `release/` folder:
 
